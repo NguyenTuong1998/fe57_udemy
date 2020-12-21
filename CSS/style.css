@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left a {
+  flex-grow: 1;
+}
+
+.header_left .category {
+  flex-grow: 1;
+}
+
+.header_left form {
+  flex-grow: 5;
+}
+
+.header_left form .input-group {
+  border: 1px solid #dce0e4;
+  border-radius: 2px;
+}
+
+.header_left form .input-group input {
+  border: transparent;
+  background-color: #f2f3f5;
+  border-radius: 2px;
+}
+
+.header_left form .input-group input:focus {
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+.header_left form .input-group i {
+  border: 1px transparent #f2f3f5;
+  display: flex;
+  align-items: center;
+  background-color: #f2f3f5;
+  color: #ec5252;
+  padding: 0 0.7rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.header_left form .input-group i:hover {
+  background-color: #ec5252;
+  color: #ffffff;
+}
+
+.header_right {
+  display: flex;
+}
+
+.header_right .link-link {
+  color: #686f7a;
+}
+
+.header_right .btn-login {
+  border: 1px solid #000000;
+  color: #686f7a;
+  cursor: pointer;
+}
+
+.header_right .btn-login:hover {
+  color: #000000;
+}
+
+.header_right .btn-danger:hover {
+  background-color: #992337;
+}
+
+#carousel {
+  background-image: url(../../img/img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#carousel .content {
+  color: #ffffff;
+}
+
+#carousel form {
+  flex-grow: 5;
+}
+
+#carousel form .input-group {
+  border: 1px solid #dce0e4;
+  border-radius: 2px;
+}
+
+#carousel form .input-group input {
+  border: transparent;
+  background-color: #f2f3f5;
+  border-radius: 2px;
+}
+
+#carousel form .input-group input:focus {
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+#carousel form .input-group i {
+  border: 1px transparent #f2f3f5;
+  display: flex;
+  align-items: center;
+  background-color: #f2f3f5;
+  color: #ec5252;
+  padding: 0 0.7rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#carousel form .input-group i:hover {
+  background-color: #ec5252;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+.header_left {
+  display: flex;
+  align-items: center;
+
+  a {
+    flex-grow: 1;
+  }
+  .category {
+    flex-grow: 1;
+  }
+
+  @include search;
+  
+}
+.header_right {
+  display: flex;
+  .link-link{
+      color: #686f7a ;
+  }
+  .btn-login {
+    border: 1px solid #000000;
+    color: #686f7a;
+    cursor: pointer;
+
+    &:hover {
+      color: #000000;
+    }
+  }
+  .btn-danger {
+    &:hover {
+      background-color: #992337;
+    }
+  }
+}
+
+#carousel {
+  background-image: url(../../img/img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  .content{
+      color: $color-second;
+  }
+    @include search;
+}
